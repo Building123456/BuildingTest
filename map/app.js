@@ -7,4 +7,8 @@ var canvasContainer = document.querySelector('canvasContainer');
 building.height = canvasContainer.height;
 building.width = canvasContainer.width;
 
+
+
+//t4rt 4r t
+
 //ijih
