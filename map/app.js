@@ -8,4 +8,5 @@ building.height = canvasContainer.height;
 building.width = canvasContainer.width;
 
 
-
+let x = 0;
+   
