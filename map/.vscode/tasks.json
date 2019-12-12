@@ -11,7 +11,7 @@
                 "command": "Chrome.exe"
             },
             "args": [
-                "test.html"
+                "index.html"
             ],
             "group": {
                 "kind": "build",
