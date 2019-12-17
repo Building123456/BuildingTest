@@ -4,11 +4,49 @@
     
         <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="canvasContainer" class="BuildingContainer">
-    <canvas  class="Building1" id="canvas" >
-    </canvas>
+<body >
+
+       <div class="topNavi">
+               <a class="active" href="#home">الرئيسية</a>
+               <a href="#back">تسجيل خروج</a>
        </div>
+
+       <div class="buildListContainer">
+       <ul class="buildList">
+                <li>
+                        <div class="BuildButton">
+                             <h>الرئيسي</h>
+                             <div id="MainNoti" class="noti">
+                                        <p>:عدد الأعطال</p><p id="notiNo" class="notiNo">12</p>
+                                              </div>
+                        </div>         
+                </li>
+                <li>
+                                <div class="BuildButton">
+                                     <h>المالية</h>
+                                     <div id="FinanceNoti" class="noti">
+                                    <p>:عدد الأعطال</p><p id="notiNo" class="notiNo">5</p>
+                                          </div>
+                                </div>         
+                        </li>
+                        <li>
+                                 <div id="ProjectNoti" class="BuildButton">
+                                             <h>المشاريع</h>
+                                             <div class="noti">
+                                                        <p>:عدد الأعطال</p><p id="notiNo" class="notiNo">20+</p>
+                                                              </div>
+                                        </div>         
+                                </li>
+               
+                      
+       </ul>
+          </div>
+
+        <div class="PageContainer">
+                <iframe class="Page" src="https://www.w3schools.com/html/html_iframe.asp"></iframe>
+        <div> 
+
+       
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="app.js" type="text/javascript"  charset="utf-8" async defer></script>
