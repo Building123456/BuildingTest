@@ -1,10 +1,4 @@
 
-:root{
-    --m : 25px;
-}
-.t{
-    height: var(--m * 3);
-}
 .topNavi{
     background-color: rgba(2, 48, 2, 0.815);
     border-radius: 10px;

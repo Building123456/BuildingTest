@@ -2,21 +2,19 @@
 // var building = document.querySelector('canvas')
 // var ctx = building.getContext('2d');
 // var canvasContainer = document.querySelector('canvasContainer');
+const $Main_Building = $('#Main_Building');
+const $Finance_Building = $('#Finance_Building');
+const $Projects_Building = $('#Projects_Building');
+const $Buildings_Container_Frame =  $("#Buildings_Container_Frame");
 
-
-// building.height = canvasContainer.height;
-// building.width = canvasContainer.width;
-
-$(".b2").click(function(){
-    $("#b2").attr("background-color" , "blue");
-    console.log('ddd')
+$Main_Building.on('click' , function(){
+           $Buildings_Container_Frame.attr('src','./Main_Building/index.html');
 })
 
- $("#find").click(function(){
-     window.open('https://www.w3schools.com/jsref/met_win_open.asp');
- })
+$Finance_Building.on('click', function(){
+    $Buildings_Container_Frame.attr('src','url')
+});
 
-//t4rt 4r 
-
-
-//ijih
+$Projects_Building.on('click', function(){
+    $Buildings_Container_Frame.attr('src','url')
+});

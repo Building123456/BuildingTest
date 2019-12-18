@@ -3,6 +3,15 @@
     --m : 20px;
 }
 
+.ZoomContainer{
+    position: absolute;
+    top: auto;
+    right: auto;
+    height: auto;
+    width: auto;
+}
+
+
 .R1 {
     border-style :  solid;
     border-width: 3px;
@@ -150,7 +159,7 @@
 
 .RS.S1 {
     left: 520px;
-    top:  695px;s
+    top:  695px;
 }
 
 .R9 {
