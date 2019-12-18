@@ -1,16 +1,8 @@
+
 /* 1 M = 25px */
 :root{
     --m : 20px;
 }
-
-.ZoomContainer{
-    position: absolute;
-    top: auto;
-    right: auto;
-    height: auto;
-    width: auto;
-}
-
 
 .R1 {
     border-style :  solid;
@@ -71,8 +63,8 @@
     border-style :  solid;
     border-width: 3px;
     border-color: darkgrey;
-    width: 50px;
-    height: 37.5px;
+    width: 25px;
+    height: 25px;
     position: absolute;
 }
 
@@ -81,7 +73,7 @@
     border-width: 3px;
     border-color: darkgrey;
     width: 75px;
-    height: 40px;
+    height: 25px;
     position: absolute;
 }
 
@@ -131,57 +123,57 @@
 }
 
 .RVS.VS1 {
-    left: 600px;
-    top:  695px;
+    left: 605px;
+    top:  720px;
 }
 
 .R13 {
     border-style :  solid;
     border-width: 3px;
     border-color: darkgrey;
-    width: 110px;
-    height: 65px;
+    width: 112.5px;
+    height: 56.25px;
     position: absolute;
-    left: 520px;
-    top: 580px;
+    left: 517px;
+    top: 615px;
 }
 
 .R14 {
     border-style :  solid;
     border-width: 3px;
     border-color: darkgrey;
-    width: 110px;
-    height: 65px;
+    width: 112.5px;
+    height: 56.25px;
     position: absolute;
-    left: 520px;
-    top: 510px;
+    left: 517px;
+    top: 555px;
 }
 
 .RS.S1 {
-    left: 520px;
-    top:  695px;
+    left: 525px;
+    top:  720px;
 }
 
 .R9 {
     border-style :  solid;
     border-width: 3px;
     border-color: darkgrey;
-    width: 75px;
+    width: 62.5px;
     height: 75px;
     position: absolute;
-    left: 555px;
-    top: 455px;
+    left: 567px;
+    top: 475px;
 }
 
 .R10 {
     border-style :  solid;
     border-width: 3px;
     border-color: darkgrey;
-    width: 30px;
-    height: 75px;
+    width: 43.75px;
+    height: 81.50px;
     position: absolute;
-    left: 520px;
-    top: 455px;
+    left: 518px;
+    top: 470px;
 }
 
 .R6 {
@@ -211,7 +203,7 @@
     border-width: 3px;
     border-color: darkgrey;
     width: 110px;
-    height: 40px;
+    height: 50px;
     position: absolute;
     left: 680px;
     top:  695px;
@@ -222,9 +214,9 @@
     border-style :  solid;
     border-width: 3px;
     border-color: darkgrey;
-    width: 110px;
+    width: 112.5px;
     height: 40px;
     position: absolute;
-    left: 520px;
-    top:  650px;
+    left: 518px;
+    top:  675px;
 }
