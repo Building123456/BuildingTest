@@ -11,12 +11,10 @@ let res={
     "floor": "0",
      "id": "003",
 }
-
     
 var $modal = $(".modal");
 var $modal_content = $(".modal-content");
 var $closeButton = $(".close-button");
-var clearText= false;
 var $message = $('#message');
 
 $("canvas").on('click',function(){
@@ -24,6 +22,8 @@ $("canvas").on('click',function(){
     
 });
 
+
+//modal
 $closeButton.on('click',function(){
     $modal.toggleClass('show-modal');
     $modal_content.toggle("fast" ,ShowModal());
@@ -39,14 +39,20 @@ function ShowProblemMessage(id){
          $message.append(temp.message);
     $modal_content.toggle("fast" ,ShowModal());
 }
+//-----
 
 
+//fetch api's
 function LoadData(id){
     $message.empty();
+    //get data
     return res;
 }
 
+function Post(id){
 
+}
+//------
 
 
 

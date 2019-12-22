@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="modal_post.css">
+        <link rel="stylesheet" href="select_post.css">
 </head>
 <body >
 
        <div class="topNavi">
                <a class="active" href="#home">الرئيسية</a>
-               <a href="#back">تسجيل خروج</a>
+               <a href="back">تسجيل خروج</a>
+               <a href id="createPost">بلاغ عن اعطال</a>
        </div>
+
+               <div class="modal-post">
+                   <div class="modal-content-post">
+                        <span class="close-button-post">×</span>
+                        <div class="header-post">
+                         <h1 class="header-text-post">انشاء طلب</h1>
+                        </div>
+                         <div class="text-content-post">
+                               <div class="content-group-post"> 
+                                       <p class="title-post">توجية الطلب الى:</p>
+                                 <input type="radio" name="dep" value="post_it" >إدارة تقنية المعلومات<br>
+                                 <input type="radio" name="dep" value="post_projects" />إدارة المشاريع<br>
+                                </div>
+
+                                <div class="content-group-post">    
+                                        <p class="title-post">نوع العطل:</p>        
+                                  <span class="custom-dropdown">
+                                  <select  id="post_defect">
+                                          <option>مكيف</option>
+                                          <option>لمبة</option>
+                                  </select>
+                                   </span>
+                                </div>
+
+                                <div class="content-group-post">
+                                        <p class="title-post">ملاحظات:</p>
+                                        <textarea id="post_comment" class="comment-post"  placeholder="اكتب هنا..."></textarea>
+                                </div>
+                         </div>
+                         <div class="footer-post">
+                                 <input type="button" id="post_submit_button" class="submit-button-post" value="أرسال">
+                         </div>
+                   </div>
+               </div>
 
        <div class="buildListContainer">
        <ul class="buildList">

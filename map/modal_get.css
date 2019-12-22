@@ -34,6 +34,7 @@
 .close-button:hover {
     background-color: darkgray;
 }
+
 .show-modal {
     opacity: 1;
     display: flex;
@@ -47,13 +48,14 @@
 }
 
 .header {
-    float: right
+    float: right;
+    margin-top: -2%;
 }
 
 .text_content{
     width: 100%;
     height: 60%;
-    padding: 4px;
+    padding: 2%;
     direction: rtl;
     overflow-y: scroll;
     background-color: #EEFFF1;
