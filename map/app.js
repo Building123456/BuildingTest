@@ -2,6 +2,8 @@
 // var building = document.querySelector('canvas')
 // var ctx = building.getContext('2d');
 // var canvasContainer = document.querySelector('canvasContainer');
+
+
 const $Main_Building = $('#Main_Building');
 const $Finance_Building = $('#Finance_Building');
 const $Projects_Building = $('#Projects_Building');
@@ -22,9 +24,7 @@ $Projects_Building.on('click', function(){
 });
 
 $CeatePost.on('click', function(){
-  // $modalPost.toggle("fast" ,ShowModal());
-  ShowModalPost();
-    CreatePost();
+  $modalPost.toggle("fast" , ShowModalPost());
 })
 
 function ShowModalPost(){
@@ -36,3 +36,7 @@ function ShowModalPost(){
 function CreatePost(){
          
 }
+
+
+
+

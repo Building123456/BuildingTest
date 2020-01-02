@@ -47,6 +47,11 @@
     opacity: 1;
 }
 
+.header-text{
+    margin-top: -4px;
+    text-align: center;
+}
+
 .header {
     float: right;
     margin-top: -2%;

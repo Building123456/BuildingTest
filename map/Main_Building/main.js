@@ -3,13 +3,13 @@ $(document).ready(function(){
 
 
 let res={
-    "case": true,
+    "alert": true,
     "caseType": "network",
     "toDep":"IT",
     "message" :"مكيف خربان هيلب بليز",
-    "building": "0",
     "floor": "0",
      "id": "003",
+     "date": "121144"
 }
     
 var $modal = $(".modal");
